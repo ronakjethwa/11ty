@@ -1,7 +1,7 @@
 ---
 title: Getting started
 date: "2019-11-01"
-description: "Supermaya is an Eleventy starter kit designed to help you add rich features to a blog or website without the need for a complicated build process."
+description: "Eleventy starter kit designed to help you add rich features to a blog or website without the need for a complicated build process."
 tags:
   - demo-content
   - sample-post
@@ -43,20 +43,6 @@ Additional features:
 These additional features that have persistent data including user generated content. On JAMstack sites including rich content usually means complicated build processes and multiple third-party services. This doesn't sit well with me since owning my own data and tinkering with the platform is a big motivation for building a static personal site.
 
 That's why I opted to pair Supermaya with [KeystoneJS](https://keystonejs.com/) to create a unified API that you own and manage. Each of these features are added progressively with JavaScript and will fail gracefully if not configured or the server can't be reached. You can opt-out on a per feature basis by modifying the data in `site/_data/site.js`, or on a per-page basis with front-matter.
-
-## Deploying Supermaya + Keystone
-
-To get started deploy the [Keystone JAMstack plus starter kit](https://github.com/MadeByMike/keystone-jamstack-plus) platform to Heroku.
-
-Once installed visit the site on Heroku and copy your Keystone API URL. Follow the instructions to automatically deploy Supermaya to Netlify where you will be asked to enter the Keystone API URL.
-
-Supermaya is designed work with the Keystone JAMstack plus platform to be a launch pad for larger ideas. Allowing you to go all the way from a simple static website to a feature rich application if you want.
-
-**Note**: Rich features are optional. Supermaya is a perfectly good starter template for 11ty without any other services. You can deploy Supermaya on it's own and add a `KEYSTONE_API` environmental variable later if you wish.
-
-## Deploying Supermaya
-
-To deploy Supermaya on its own you can use this link to [deploy to Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/MadeByMike/supermaya). Leave the `KEYSTONE_API` blank if you don't have one. Alternatively you can clone this repository and run it locally.
 
 ## Starting Supermaya
 
@@ -141,9 +127,3 @@ Supermaya is capable of generating criticalCSS although this is turned off by de
 ```
 site/_data/site.js
 ```
-
-## Why "Supermaya"
-
-A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's a combination of Superman and Maya, one of his kids favourite cartoon characters. That settles it, right? And here's a picture:
-
-<img src="/supermaya.jpg" width="600"/>

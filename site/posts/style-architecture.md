@@ -8,13 +8,13 @@ tags:
   - blog
 ---
 
-Supermaya doesn't have a lot of specific CSS. The vast majority of the styles relate to layout with only a few classes having thematic or presentational styles. It's designed this way so that you can extend it by adding presentational styles.
+The vast majority of the styles relate to layout with only a few classes having thematic or presentational styles. It's designed this way so that you can extend it by adding presentational styles.
 
 If you want to extend the styles in this project you might notice they are written in a particular way. You might find this un-familiar or difficult to reason about at first. I've use specific conventions around style architecture that I've found to be scalable and maintainable for any size project. If you want to follow the same conventions I explain the methodologies here.
 
 ## Layout classes
 
-Layout classes in Supermaya are denoted with an `l-` prefix. I'm pretty specific about what a layout class is. It should have only `display`, `grid` or `flex` properties, sometimes `width`, `height` or `padding`, but never presentational properties like `background` or `font-size` or `color`. It should be mostly intuitive what is layout and what is presentational.
+Layout classes in defined are denoted with an `l-` prefix. I'm pretty specific about what a layout class is. It should have only `display`, `grid` or `flex` properties, sometimes `width`, `height` or `padding`, but never presentational properties like `background` or `font-size` or `color`. It should be mostly intuitive what is layout and what is presentational.
 
 I also believe that **layout components should own both sides of the parent > child relationship**. What this means is layout classes are responsible for applying layout properties to child elements. The reason for this is I try wherever possible to co-locate layout concerns. In modern CSS layout there is always a parent child relationship E.g. `flex-container` > `flex-item`, or `grid-container` > `grid-item`. When these styles are not co-located, this relationship is like a hidden dependency. Things break when we modify the styles on a child item or use it in a different container.
 
