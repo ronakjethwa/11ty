@@ -1,15 +1,8 @@
 <div align="center">
     <h1>Eleventy</h1>
     <br>
-    <p>Eleventy is an <a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit designed to help you add rich features to a blog or website without the need for a complicated build process.</p>
-    <br><img src="site/static/screenshot.png" width="500"/>
+    <p><a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit designed to help you add rich features to website without the need for a complicated build process.</p>
     <br>
-    <p>See a <a href="https://Eleventy-demo.netlify.com/">Live Demo</a>.</p>
-    <p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/MadeByMike/Eleventy">Deploy Eleventy on it's own</a></p>
-    <p><a href="https://heroku.com/deploy?template=https://github.com/keystonejs/keystone-jamstack-plus">Deploy Eleventy with Keystone</a> to allow user generated content. <br>(following instructions during installation to connect the API).</p>
-    <br>
-    <br>
-    
 </div>
     
 It comes with all the blog standard features:
@@ -43,16 +36,6 @@ Additional features:
 - Login
 
 These additional features that have persistent data including user generated content. On JAMstack sites including rich content usually means complicated build processes and multiple third-party services. This doesn't sit well with me since owning my own data and tinkering with the platform is a big motivation for building a static personal site.
-
-That's why I opted to pair Eleventy with [KeystoneJS](https://keystonejs.com/) to create a unified API that you own and manage. Each of these features are optional and added progressively with JavaScript and will fail gracefully if not configured or the server can't be reached. You can opt-out on a per feature basis by modifying the data in `site/_data/site.js`, or on a per-page basis with front-matter.
-
-**Note**: If you don't want any of these features you can [deploy Eleventy on its own](https://app.netlify.com/start/deploy?repository=https://github.com/MadeByMike/Eleventy) or you can [deploy Eleventy and Keystone together](https://heroku.com/deploy?template=https://github.com/keystonejs/keystone-jamstack-plus) and connect the API by following the instructions during installation. This will deploy Keystone to Heroku and Eleventy to Netlify, as well as configure your Admin user and API URL.
-
-To get started deploy the [Keystone JAMstack plus starter kit](https://github.com/keystonejs/keystone-jamstack-plus) platform to Heroku. Once installed visit the site on Heroku and copy your Keystone API URL. Follow the instructions to automatically deploy Eleventy to Netlify.
-
-Note: Rich features are optional Eleventy is a perfectly good starter template for 11ty without any other services. You can deploy Eleventy on it's own and add a `KEYSTONE_API` environmental variable later if you wish.
-
-Eleventy is designed to be a launch pad that allows you to go all the way from a simple static website to a feature rich application.
 
 ## Running the project
 
@@ -91,15 +74,6 @@ Eleventy includes basic theming. Select an alternative to the black and white fe
 ```
 site/_data/site.js
 ```
-
-## Toggling Keystone features
-
-If you connected Eleventy to a Keystone backend you can toggle features under the `keystone` key in:
-
-```
-site/_data/site.js
-```
-
 ## Working with SCSS
 
 In Eleventy SCSS files are compiled on-the-fly by 11ty and added to data. This means you can write inline CSS directly into templates and partials like this: `<style>{% raw %}{{css["compilation-target"] | safe}}{% endraw %}</style>`. Where "compilation-target" is the key added to the list of SCSS files to compile in:
@@ -137,13 +111,3 @@ Eleventy is capable of generating criticalCSS although this is turned off by def
 ```
 site/_data/site.js
 ```
-
-## Credit where due
-
-I need to acknowledge and credit the work of [Phil Hawksworth](https://twitter.com/philhawksworth) and [Andy Bell](https://twitter.com/hankchizljaw) for their work on [eleventyone](https://github.com/philhawksworth/eleventyone) and [Hylia](https://github.com/hankchizljaw/hylia) both of which are fantastic 11ty templates. I pulled these apart before making my own. In particular there are a few implementation details borrowed directly from Hylia - because if something is done right and it's open source why do it again? Thanks Andy.
-
-## Why "Eleventy"
-
-A friend and designer Matt Barron, helped me out with some initial design work and used it as a placeholder for the site name in early mock-ups. As usual development names grow on you. I later learned it was the name of his family dog. It's combination of Superman and Maya, one of his kids favourite cartoon characters. That settles it, right? And here's a picture:
-
-<img src="site/static/Eleventy.jpg" width="400"/>
