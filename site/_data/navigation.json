@@ -12,17 +12,17 @@
     },
     {
       "text": "Twitter",
-      "url": "https://twitter.com/MikeRiethmuller",
+      "url": "https://twitter.com/ronak_jethwa",
       "external": true
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/madebymike/supermaya",
+      "url": "https://github.com/ronakjethwa",
       "external": true
     },
     {
-      "text": "Feed",
-      "url": "/feed.xml",
+      "text": "Dev",
+      "url": "https://dev.to/ronakjethwa",
       "external": true
     }
   ]
