@@ -1,4 +1,6 @@
 npm-debug.*
+.vs
+.vscode/
 *.log
 .DS_Store
 node_modules
