@@ -2,12 +2,12 @@
   display: flex;
 }
 
-.l-navigation > * {
-  white-space: pre;
-}
+// .l-navigation > * {
+//   white-space: pre;
+// }
 
 .l-navigation > * + * {
-  margin-left: 0.5rem;
+  margin-left: 1.5rem;
 }
 
 .navigation {

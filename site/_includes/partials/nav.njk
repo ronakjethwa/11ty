@@ -17,9 +17,7 @@
         {% endif %}
 
         <li>
-          <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>
-            {{ item.text }}
-          </a>
+          <a href="{{ item.url }}" {{ externalAttribute | safe }} {{ currentAttribute | safe }}>{{ item.text }}</a>
         </li>
       {% endfor %}
 

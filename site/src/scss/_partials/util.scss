@@ -28,6 +28,9 @@
 .invert-link:hover,
 .invert-link:focus {
   text-decoration: underline;
+  text-decoration-thickness: .2em;
+  text-decoration-skip-ink: auto;
+  cursor: pointer;  
 }
 
 .theme-bg {
