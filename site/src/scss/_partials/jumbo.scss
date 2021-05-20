@@ -8,5 +8,9 @@
 
 .l-jumbo > * + * {
   margin-top: 1rem;
-  max-width: 50vw;
+  max-width: 100vw;
+  
+  @media (min-width: $bp-container) {
+    max-width: 65vw;
+  }
 }
