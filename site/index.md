@@ -6,7 +6,7 @@ allPostsText: See all posts
 socialImage: ""
 ---
 
-Ronak Jethwa is a developer who is passionate about working on the intersection of design & technology.
+Ronak Jethwa is a developer who is passionate about working on the intersection of design and technology.
 
 <ul>
     <li>

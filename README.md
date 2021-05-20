@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Eleventy</h1>
     <br>
-    <p><a href="https://github.com/11ty/eleventy/">Eleventy</a> starter kit designed to help you add rich features to website without the need for a complicated build process.</p>
+    <p>Ronak Jethwa is a developer who is passionate about working on the intersection of design and technology.</p>
     <br>
 </div>
     

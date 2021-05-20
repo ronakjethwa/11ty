@@ -1,7 +1,7 @@
 ---
 title: Getting started
 date: "2019-11-01"
-description: "Eleventy starter kit designed to help you add rich features to a blog or website without the need for a complicated build process."
+description: "Ronak Jethwa is a developer who is passionate about working on the intersection of design and technology."
 tags:
   - demo-content
   - sample-post
