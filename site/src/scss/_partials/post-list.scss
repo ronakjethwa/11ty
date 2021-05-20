@@ -31,7 +31,9 @@
 .read-more {
   text-decoration: underline;
   font-size: $SCALE--1;
+  display: block;
 }
+
 .read-more:hover,
 .read-more:focus {
   text-decoration: none;
