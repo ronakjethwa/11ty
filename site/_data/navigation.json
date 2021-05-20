@@ -1,12 +1,7 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
-      "external": false
-    },
-    {
-      "text": "Posts",
+      "text": "Journal",
       "url": "/posts",
       "external": false
     },
