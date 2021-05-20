@@ -13,6 +13,6 @@ Ronak Jethwa is a developer who is passionate about working on the intersection 
         Frontend Engineer II - GoDaddy <small>2020 - Present</small>
     </li>
     <li>
-        Frontend Engineer - Tripadvisor <small>2015 - 2020</small>
+        Software Engineer - Tripadvisor <small>2015 - 2020</small>
     </li>
 </ul>
