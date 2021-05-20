@@ -1,7 +1,7 @@
 module.exports = {
   name: "Ronak Jethwa",
   shortDesc:
-    "An 11ty starter kit designed to help you add rich features to a site without a complicated build process.",
+    "Want to chat? Drop me a note on ronakjethwa@gmail.com.",
   url: "",
   authorEmail: "ronakjethwa@gmail.com",
   authorHandle: "@RonakJethwa",
