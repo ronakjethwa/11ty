@@ -1,7 +1,7 @@
 ---
 title: DOM Traversal
 date: "2020-05-24"
-description: "This post shows few things which will help in traversing the DOM with JavaScript."
+description: "Traversing the DOM? This might come handy!"
 tags:
   - html
   - javascript

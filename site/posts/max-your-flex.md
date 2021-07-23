@@ -1,7 +1,7 @@
 ---
 title: Max Your Flex
 date: "2020-05-06"
-description: "My very own 5-minute recap of Flexbox to cover most about it"
+description: "5-minute recap of Flexbox to cover most about it"
 tags:
   - html
   - css

@@ -1,7 +1,7 @@
 ---
 title: JavaScript Equality Checks
 date: "2020-05-29"
-description: ""
+description: "Are those Objects equal?"
 tags:
   - javascript
 ---

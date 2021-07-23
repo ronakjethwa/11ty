@@ -1,7 +1,7 @@
 ---
 title: Singleton In JavaScript
 date: "2020-05-30"
-description: "This post is dedicated to my understanding on Singleton in JavaScript."
+description: "A renowned yet confusing javascript pattern"
 tags:
   - javascript
   - singleton
