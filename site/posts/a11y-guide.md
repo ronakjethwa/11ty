@@ -72,7 +72,7 @@ We'll make sure that we express our user interface in a robust way that works wi
 
 - Leverage specific HTML attributes (role and aria-*) that allow adding specific semantic meaning to existing HTML elements.
 - Follow [Aria Design Pattern Guide](https://www.w3.org/TR/wai-aria-practices/#aria_ex) for the semantic roles, states and properties.
-- Use native elements freely. Native controls (such as <button> and <select>) have accessibility built-in by the browser. They are focusable using the tab key, respond to keyboard events (like Enter, space and arrow keys), and have semantic roles, states and properties used by accessibility tools by default.
+- Use native elements freely. Native controls (such as `button` and `select`) have accessibility built-in by the browser. They are focusable using the tab key, respond to keyboard events (like Enter, space and arrow keys), and have semantic roles, states and properties used by accessibility tools by default.
 - Ensure that all functionality in your UI component can be reached by a keyboard. During your UX design, think about how you would use your element with the keyboard alone, and figure out a consistent set of keyboard interactions.
 
 ### CSS
@@ -123,7 +123,7 @@ We'll make sure that we express our user interface in a robust way that works wi
 Following these practises should serve us to achieve that higher accessibility score for most of our pages. This is a dump from Google lighthouse a11y requirements.
 
 - [aria-*] attributes match their roles
-- [aria-hidden="true"] is not present on the document <body>
+- [aria-hidden="true"] is not present on the document `body`
 - [aria-hidden="true"] elements do not contain focusable descendents
 - [role]s have all required [aria-*] attributes
 - Elements with an ARIA [role] that require children to contain a specific [role] have all required children.
@@ -134,17 +134,17 @@ Following these practises should serve us to achieve that higher accessibility s
 - Buttons have an accessible name
 - The page contains a heading, skip link, or landmark region
 - Background and foreground colors have a sufficient contrast ratio
-- Document has a <title> element
+- Document has a `title` element
 - [id] attributes on active, focusable elements are unique
 - ARIA IDs are unique
 - Heading elements appear in a sequentially-descending order
-- <html> element has a [lang] attribute
-- <html> element has a valid value for its [lang] attribute
+- `html` element has a [lang] attribute
+- `html` element has a valid value for its [lang] attribute
 - Image elements have [alt] attributes
 - Form elements have associated labels
-- Lists contain only <li> elements and script supporting elements (<script> and <template>).
-- List items (<li>) are contained within <ul> or <ol> parent elements
-- [user-scalable="no"] is not used in the <meta name="viewport"> element and the [maximum-scale] attribute is not less than 5.
+- Lists contain only `li` elements and script supporting elements (`script` and `template`).
+- List items (`li`) are contained within `ul` or `ol` parent elements
+- [user-scalable="no"] is not used in the `meta name="viewport"` element and the [maximum-scale] attribute is not less than 5.
 - No element has a [tabindex] value greater than 0
 - button, link, and menuitem elements have accessible names
 - ARIA input fields have accessible names
@@ -154,13 +154,13 @@ Following these practises should serve us to achieve that higher accessibility s
 - ARIA tooltip elements have accessible names
 - ARIA treeitem elements have accessible names
 - No form fields have multiple labels
-- <frame> or <iframe> elements have a title
-- <input type="image"> elements have [alt] text
-- The document does not use <meta http-equiv="refresh">
-- <object> elements have [alt] text
-- Cells in a <table> element that use the [headers] attribute refer to table cells within the same table.
-- <th> elements and elements with [role="columnheader"/"rowheader"] have data cells they describe.
-- <video> elements contain a <track> element with [kind="captions"]
+- `frame` or `iframe` elements have a title
+- `input type="image"` elements have [alt] text
+- The document does not use `meta http-equiv="refresh"`
+- `object` elements have [alt] text
+- Cells in a `table` element that use the [headers] attribute refer to table cells within the same table.
+- `th` elements and elements with [role="columnheader"/"rowheader"] have data cells they describe.
+- `video` elements contain a `track` element with [kind="captions"]
 
 ## Resources
 
