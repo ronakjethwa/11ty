@@ -1,6 +1,6 @@
 ---
 layout: "layouts/home.njk"
-title: I make web look nice
+title: I make things, I break things
 postsHeading: Latest posts
 allPostsText: See all posts
 socialImage: ""
